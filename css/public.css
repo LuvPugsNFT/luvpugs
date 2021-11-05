@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lusitana&display=swap");
+
+.lusi {
+  font-family: "Lusitana", serif;
+}
+
+.banner {
+  box-shadow: inset 0 0 0 2000px rgba(104, 104, 104, 0.411);
+}
+
+.countdown {
+  background: url("../images/countdown-bg.png") no-repeat center center;
+  background-size: cover;
+  z-index: 1000 !important;
+}
+
+.mint{
+    background: url("../images/sloth1.png") no-repeat left ;
+    background: url("../images/sloth2.png") no-repeat left ;
+    box-shadow: inset 0 0 0 2000px rgba(104, 104, 104, 0.411);
+
+
+}
+
+
+
+::placeholder {
+  color: #807777;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #807777;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #807777;
+}
+
+.bg-sky {
+  background-color: #a3a4a5 !important;
+  color: #fff;
+}
